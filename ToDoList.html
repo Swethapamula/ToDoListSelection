@@ -9,6 +9,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
 
 </head>
 <body class="body_style" >
@@ -17,12 +19,24 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark navigation">
         <h5><b> Todo-List Items</b></h5>
           <ul class="navbar-nav ml-auto a_col">
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:myFunction()">Todo List</a>
+
+            <li class="navitem">
+              <span id="clock" class="nav-link"></span>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:myFunction()">Todo-List</a>
+            </li>
+            <li class="nav-item">
+              <span class="nav-link" >admin <i class="fa fa-user-circle" aria-hidden="true"></i>
+              </span>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="index.html">LogOut</a>
             </li>
+
+
+
           </ul>
         </nav>
       <div class=container>

@@ -1,4 +1,15 @@
-function fetchJSONFile(path, callback) {
+
+
+
+    var clockElement = document.getElementById('clock');
+    var dt = new Date();
+    clockElement.textContent=dt.toLocaleString();
+
+
+    
+    
+    
+    function fetchJSONFile(path, callback) {
     var httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
         if (httpRequest.readyState === 4) {
@@ -48,7 +59,7 @@ function check()
     
      if (totalChecked===5)
     {    
-        resolve("Congatulations 5 tasks Selected Successfully ");  
+        resolve("Congatulations 5 Tasks have been Successfully Completed");  
     }
      else {    
         reject('Promise is rejected');  
